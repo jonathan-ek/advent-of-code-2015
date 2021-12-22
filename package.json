@@ -1,0 +1,13 @@
+{
+  "name": "advent-of-code-2015",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {},
+  "dependencies": {
+    "@types/node": "^17.0.2",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "aoc": "ts-node"
+  }
+}
