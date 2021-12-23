@@ -5,9 +5,15 @@
   "packages": {},
   "dependencies": {
     "@types/node": "^17.0.2",
+    "eslint": "^8.5.0",
+    "ts-md5": "^1.2.10",
     "typescript": "^4.5.4"
   },
   "scripts": {
-    "aoc": "ts-node"
+    "aoc": "ts-node",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.8.0"
   }
 }
